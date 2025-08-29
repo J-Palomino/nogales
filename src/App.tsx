@@ -12,7 +12,6 @@ function App() {
   const [currentView, setCurrentView] = useState<CurrentView>('home');
 
   const handleCategoryClick = (categoryId: string) => {
-    if (categoryId === 'weather') return; // Weather is handled by widget
     setCurrentView(categoryId as CurrentView);
   };
 

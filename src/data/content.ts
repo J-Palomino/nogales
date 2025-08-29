@@ -8,7 +8,6 @@ export const categories = [
   { id: 'careers', name: 'Careers', icon: 'Briefcase' },
   { id: 'stories', name: 'Stories', icon: 'BookOpen' },
   { id: 'travel', name: 'Travel Tips', icon: 'Plane' },
-  { id: 'weather', name: 'Weather', icon: 'Cloud' },
 ];
 
 export const foodItems: CategoryItem[] = [
